@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <title>Code Player</title>
+         <link rel="stylesheet" href="codePlayer.css" type="text/css">
+         <link href="https://fonts.googleapis.com/css?family=Capriola|Istok+Web" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Basic" rel="stylesheet">
+         <script src="jQuery.js" type="text/javascript"></script>
+         <script src="jquery_ui/jquery-ui.js" type="text/javascript"></script>
+         
+     </head>
+     
+     <body>
+           <div id="header">
+                   <div>
+                        <img src="logo.png">
+                   </div>
+                <div id="logo">
+                      WebCodePlayer
+                </div>
+                
+<!--               Four Toggle buttons in the header-->
+                <div id="buttonContainer">
+                      <div class="toggleButton active" id="html">HTML</div>
+                      <div class="toggleButton" id="css">CSS</div>
+                      <div class="toggleButton" id="javascript">JavaScript</div>
+                      <div class="toggleButton active" id="output">Output</div>
+                </div> 
+           </div> 
+           
+           
+<!--           Four panelsfor the HTML, CSS, Javascript and Output codes  -->
+           <div id="textContainer">
+                 
+                 <textarea id="htmlPanel" class="panel"><p id="paragraph">Hello There</p></textarea>
+                 
+                 <textarea id="cssPanel" class="panel hidden">p{ color:red}</textarea>
+                 
+                 <textarea id="javascriptPanel" class="panel hidden">document.getElementById("paragraph").innerHTML = "Hello World";</textarea>
+                 
+                 <iframe id="outputPanel" class="panel"></iframe>
+           </div>
+           
+           
+        
+         <script src="codePlayer.js" type="text/javascript"></script>
+     </body>
+    
+</html>

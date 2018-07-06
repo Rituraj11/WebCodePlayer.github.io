@@ -1,0 +1,90 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E1F5FE;
+}
+
+#header{
+    width: 100%;
+    background-color: #CE93D8;
+    padding: 5px;
+    height:40px;
+    font-family: 'Capriola', sans-serif;
+}
+
+img{
+    width: 54px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 3px;
+    float: left;
+}
+
+#logo{
+    float: left;
+    font-size: 130%;
+    margin-top: 7px;
+    margin-left: 8px;
+    font-weight: bold;
+   
+}
+
+#buttonContainer{
+    width: 320px;
+    margin: 0 auto;
+}
+
+
+.toggleButton{
+    float: left;
+    border: 1px solid grey;
+    padding: 8px 10px;;
+    border-right: none;
+    font-size: 105%; 
+}
+
+#html{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#output{
+    border: 1px solid grey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.active{
+    background-color: #E8F2FF;
+}
+
+.highlightedButton{
+    background-color: grey;
+}
+
+#textContainer{
+    margin: 0;
+    padding: 0;
+    
+}
+textarea{
+    resize: none;
+    border-top: none;
+    border-color: grey;
+    background-color: #E1F5FE;
+    font-family: 'Basic', sans-serif;
+}
+
+.panel{
+    float: left;
+    width: 50%;
+}
+
+iframe{
+    border: 1px solid grey;
+    border-top: none;
+}
+
+.hidden{
+    display: none;
+}
